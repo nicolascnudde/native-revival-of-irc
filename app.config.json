@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "TheRevivalOfIRC",
+    "slug": "TheRevivalOfIRC",
+    "description": "A chat application, comparable to the once popular Internet Relay Chat (IRC)",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "notification": {
+      "iosDisplayInForeground": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends.",
+          "cameraPermission": "The app accesses your camera so you can take a photo and share it with your friends.",
+          "microphonePermission": "The app accesses your microphone so you can talk to your friends."
+        }
+      ]
+    ]
+  }
+}
